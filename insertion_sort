@@ -7,7 +7,7 @@
   2.aşama = [ 2 , 6 , 16 , 22 , 18 , 27 ]
   3.aşama = [ 2 , 6 , 16 , 18 , 22 , 27 ]
   
-2. Diziin Big - O gösterimi ;
+2. Örnek Dizin Big - O gösterimi ;
 
 Insertion Sort mantığında her index'i tek tek kontrol edip en küçüğü ile yer değiştirme mantığı olduğu için eleman sayısı (n) kadar işlem sağlamaktadır.
 
@@ -31,6 +31,7 @@ Insertion Sort mantığında her index'i tek tek kontrol edip en küçüğü ile
 
 18 sayısı orta sayı olduğu için Avarage Case kapsamında değerlendirilmektedir.
 
+------------------------------------------------------------------------------------------------
 
 5. Ornek_Dizi = [7 , 3 , 5 , 8 , 2 , 9 , 4 , 15 , 6] dizisini insertion sort ' a göre sıralama adımlarının ilk 4 adımı : 
 
