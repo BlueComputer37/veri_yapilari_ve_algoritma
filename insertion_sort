@@ -9,21 +9,22 @@
   
 2. Örnek Dizin Big - O gösterimi ;
 
-Insertion Sort mantığında her index'i tek tek kontrol edip en küçüğü ile yer değiştirme mantığı olduğu için eleman sayısı (n) kadar işlem sağlamaktadır.
+Insertion Sort'tun ilk adımında her index'i tek tek kontrol edip en küçüğü ile yer değiştirme mantığı olduğu için eleman sayısı (n) kadar işlem sağlamaktadır.
+Daha sonraki adımlarda işlem sayısı (n-1), (n-2) şeklinde azalarak gider.
 
   1.aşama = [ 2 , 27 , 16 , 22 , 18 , 6 ]  ( n )
   2.aşama = [ 2 , 6 , 16 , 22 , 18 , 27 ]  (n-1)
-  3.aşama = [ 2 , 6 , 16 , 18 , 22 , 27 ]  (n-2)
+  3.aşama = [ 2 , 6 , 16 , 18 , 22 , 27 ]    1
   
-  O(n) olarak bulunur. 
+  Bu yüzden Big O Notation, O(n²) olarak bulunur. 
   
 3.Time Complexity incelemesi ;
 
-  Avarage Case :  n/2
+  Avarage Case :  O(n²)
   
-  Worst   Case :  n
+  Worst   Case :  O(n²)
   
-  Best  Case   :  n/n : 1 
+  Best  Case   :  O(n)
   
 4. Dizi sıralı hale geldikten sonra 18 sayısı hangi case kapsamına girdiği hakkında inceleme ;
 
