@@ -9,7 +9,8 @@
   
 2. Örnek Dizin Big - O gösterimi ;
 
-Insertion Sort'tun ilk adımında her index'i tek tek kontrol edip en küçüğü ile yer değiştirme mantığı olduğu için eleman sayısı (n) kadar işlem sağlamaktadır. Daha sonraki adımlarda işlem sayısı (n-1), (n-2) şeklinde azalarak gider.
+Insertion Sort'tun ilk adımında her index'i tek tek kontrol edip en küçüğü ile yer değiştirme mantığı olduğu için eleman sayısı (n) kadar işlem sağlamaktadır.
+Daha sonraki adımlarda işlem sayısı (n-1), (n-2) şeklinde azalarak gider.
 
   1.aşama = [ 2 , 27 , 16 , 22 , 18 , 6 ]  ( n )
   2.aşama = [ 2 , 6 , 16 , 22 , 18 , 27 ]  (n-1)
